@@ -27,10 +27,14 @@ Auxillary data
 
 The script computes the new variables as follows:
 
-1. adds `subject` and `activity` variables, using `activity_labels.txt` and `y_<test|train>.txt`
-2. Formats the variable names - replaces redundant 'BodyBody' with
+1. Merges the data sets and adds `subject` and `activity` variables
+2. Keeps only those variables whose name contains 'std' or 'mean'
+3. Replaces `activity`'s integer values with its activity labels
+4. Formats the variable names - replaces redundant 'BodyBody' with
 'Body', removes '()' and '-', and makes them lower case)
-3. Computes the mean of each variable by subject and by activity
+5. Computes the mean of each variable by subject and by activity
+
+For more details on each step see the script's documented code.
 
 All the variables are listed below.  Variables beginning with 'f' denote
 frequency domain measurements, and those beginning with 't' denote time domain
