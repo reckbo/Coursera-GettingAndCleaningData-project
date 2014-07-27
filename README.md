@@ -1,15 +1,14 @@
 Overview
 --------
 
-This project provides an R script `run_analysis.R` to process the data 
-collected from the accelerometers of the the Samsung Galaxy S smartphone worn
-by 30 volunteers performing activities of daily living
-(http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones)
+This project provides an R script `run_analysis.R` to process the data from the
+[Human Activity Recognition Using Smartphones Data
+Set](http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones).
+The data set captures the measurements of the Samsung Galaxy S's accelerometer
+worn by 30 volunteers performing activities of daily living.
 
-Given the data set, downloaded from
-https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip,
-it produces a csv file `tidy_dataset.csv` which contains the processed data described
-in `CodeBook.md`.
+Given the data set, the scripts generates a csv file called `tidy_dataset.csv`
+which contains the processed data described in `CodeBook.md`.
 
 
 Setup
